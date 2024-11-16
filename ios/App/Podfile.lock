@@ -1,0 +1,28 @@
+PODS:
+  - Capacitor (6.1.2):
+    - CapacitorCordova
+  - CapacitorCordova (6.1.2)
+  - EduardorothMediaPlayer (1.0.0):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - EduardorothMediaPlayer (from `../../../media-player`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  EduardorothMediaPlayer:
+    :path: "../../../media-player"
+
+SPEC CHECKSUMS:
+  Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
+  CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
+  EduardorothMediaPlayer: 6f298a870af4da519e70bf314248b91c119bf412
+
+PODFILE CHECKSUM: f90c5d71054142b183c61a15bd63176e7ebe304b
+
+COCOAPODS: 1.15.2
